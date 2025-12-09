@@ -1,15 +1,14 @@
 >The PR-template can be found [here](https://github.com/KvalitetsIT/.github/blob/main/PULL_REQUEST_TEMPLATE.md)
 
 # Jira issue
-
 Issue number: **KH-**
 
 # Changes
 
 ### What has changed - and why?
-
-Reviewer should definitely ask me to delete this line, and tell me to explain the changes in more detail.
-
+<!-- required-text-start -->
+Type here
+<!-- required-text-end -->
 # Checklist
 
 > Entire checklist needs to be checked, before it can be merged.
