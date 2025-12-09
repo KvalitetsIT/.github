@@ -1,3 +1,5 @@
+>The PR-template can be found [here](https://github.com/KvalitetsIT/.github/blob/main/PULL_REQUEST_TEMPLATE.md)
+
 # Jira issue
 
 Issue number: **KH-**
@@ -6,7 +8,7 @@ Issue number: **KH-**
 
 ### What has changed - and why?
 
-Reviewer should definetly ask me to delete this line, and tell me to explain the changes in more detail.
+Reviewer should definitely ask me to delete this line, and tell me to explain the changes in more detail.
 
 # Checklist
 
@@ -21,5 +23,4 @@ Reviewer should definetly ask me to delete this line, and tell me to explain the
 - [ ] I have filed out this template the best way I can
 
 **Environments:**
-
 - [ ] My changes are ready for prod-environment
