@@ -29,7 +29,8 @@ Type here
 <hr/>
 
 **Remember to add label** 
- > If this PR is in an app-of-apps-repository, and is merged to the production-branch, a label should be added to this PR
+ > A label should be added to this repo if:
+ >  - Repo contains infrastructure components maintained by KIT
  
  `production release tested` (After the PR is tested in prod - No matter the outcome)  
  `production release no impact` (If this pr will not impact production)
