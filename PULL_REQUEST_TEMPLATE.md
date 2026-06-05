@@ -12,19 +12,34 @@ Issue number: **KH-**
 Type here
 <!-- required-text-end -->
 # Checklist
-
-> Entire checklist needs to be checked, before it can be merged.
+> Til udvikling: [Udviklingshåndbog](https://kvalitetsit.atlassian.net/wiki/x/AYAcrQ)
+> 
+> Til hosting: [Operations guide](https://kvalitetsit.atlassian.net/wiki/x/cYAffg) 
 
 <!-- ignore-task-list-start -->
 <!-- ignore-task-list-end -->
 
-- [ ] I have used/followed KIT's procedures and recommendations regarding updates
-- [ ] I have made a risk assessment (e.g. fallback plan, backup)
-- [ ] I have completed necessary tests
-- [ ] I have filed out this template the best way I can
+## Vurdering
 
-**Environments:**
-- [ ] My changes are ready for prod-environment
+- [ ] Jeg bekræfter at ændringen ikke introducerer nye privacy-mæssige risici (privacy-by-design og by-default)
+- [ ] Jeg bekræfter at ændringen ikke introducerer nye sikkerhedsmæssige risici (security-by-design og by-default)
+
+## Implementering
+
+- [ ] Ændringen er reviewet og godkendt af mindst én anden udvikler
+- [ ] Al kode og konfiguration er under versionskontrol 
+- [ ] Der er ingen credentials, API-nøgler eller hemmeligheder i kildekoden
+
+## Test
+
+- [ ] Ændringen er testet og virker efter hensigten
+- [ ] Testmiljøet kørte kun syntetiske eller anonymiserede data - ingen persondata
+- [ ] Rollback er mulig og fremgangsmåden er kendt
+
+## Deployment
+
+- [ ] Det er bekræftet at det er det rigtige miljø der opdateres
+- [ ] Monitorering og alarmering er aktiv
 
 <hr/>
 
