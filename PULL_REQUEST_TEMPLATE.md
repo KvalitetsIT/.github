@@ -26,7 +26,7 @@ Type here
 ### Verification
 - [ ] The change has been tested and works as intended
 - [ ] The change only contains synthetic or anonymized data — no personal data
-- [ ] There are no credentials, API keys, or secrets in the source code
+- [ ] The change contains no raw credentials, API keys, or secrets
 
 ### Operations
 - [ ] Rollback is possible and the procedure is known
