@@ -12,9 +12,9 @@ Issue number: **KH-**
 Type here
 <!-- required-text-end -->
 # Checklist
-> Til udvikling: [Udviklingshåndbog](https://kvalitetsit.atlassian.net/wiki/x/AYAcrQ)
+> For development: [Developer handbook](https://kvalitetsit.atlassian.net/wiki/x/AYAcrQ)
 > 
-> Til hosting: [Operations guide](https://kvalitetsit.atlassian.net/wiki/x/cYAffg) 
+> For KitHosting: [Operations guide](https://kvalitetsit.atlassian.net/wiki/x/cYAffg) 
 
 <!-- ignore-task-list-start -->
 <!-- ignore-task-list-end -->
