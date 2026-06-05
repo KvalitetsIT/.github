@@ -19,27 +19,19 @@ Type here
 <!-- ignore-task-list-start -->
 <!-- ignore-task-list-end -->
 
-## Vurdering
+### Assessment
+- [ ] I confirm that the change does not introduce any new privacy-related risks (privacy by design and by default)
+- [ ] I confirm that the change does not introduce any new security-related risks (security by design and by default)
 
-- [ ] Jeg bekræfter at ændringen ikke introducerer nye privacy-mæssige risici (privacy-by-design og by-default)
-- [ ] Jeg bekræfter at ændringen ikke introducerer nye sikkerhedsmæssige risici (security-by-design og by-default)
+### Verification
+- [ ] The change has been tested and works as intended
+- [ ] The change only contains synthetic or anonymized data — no personal data
+- [ ] There are no credentials, API keys, or secrets in the source code
 
-## Implementering
-
-- [ ] Ændringen er reviewet og godkendt af mindst én anden udvikler
-- [ ] Al kode og konfiguration er under versionskontrol 
-- [ ] Der er ingen credentials, API-nøgler eller hemmeligheder i kildekoden
-
-## Test
-
-- [ ] Ændringen er testet og virker efter hensigten
-- [ ] Testmiljøet kørte kun syntetiske eller anonymiserede data - ingen persondata
-- [ ] Rollback er mulig og fremgangsmåden er kendt
-
-## Deployment
-
-- [ ] Det er bekræftet at det er det rigtige miljø der opdateres
-- [ ] Monitorering og alarmering er aktiv
+### Operations
+- [ ] Rollback is possible and the procedure is known
+- [ ] It has been confirmed that the correct environment is being updated
+- [ ] Monitoring and alerting have been considered and are in place for the relevant components
 
 <hr/>
 
