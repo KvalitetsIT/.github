@@ -24,11 +24,20 @@ Keep changes strictly aligned with the PR description.
 
 ---
 
+## Reuse & Duplication
+
+- Look for duplicated code and suggest consolidation when it improves readability.
+- Check whether similar methods can be merged into one method with clear parameters.
+- Prefer reuse of existing methods before adding new parallel logic.
+
+---
+
 ## Naming
 
 - Encourage descriptive and explicit naming for variables, methods, and classes.
 - Avoid abbreviations unless strongly justified and commonly established.
 - Call out any names that could be misunderstood by a new developer.
+- For test names, require that both input and expected output/behavior are clear from the name.
 
 ---
 
@@ -39,6 +48,7 @@ Promote simple and linear control flow.
 - Suggest reducing nested `if` statements.
 - Suggest reducing nested loops where possible.
 - Prefer early returns over deep nesting.
+- Prefer readability over compact one-liners.
 - If logic becomes complex, suggest small, focused methods (only when it improves readability).
 
 ---
@@ -49,6 +59,24 @@ Promote simple and linear control flow.
 - Avoid hidden side effects.
 - Follow existing project conventions.
 - Keep code easy for the next developer to understand and extend.
+- The most important outcome is readable and maintainable code.
+
+---
+
+## Testing Expectations
+
+- Check whether new backend/business logic is covered by tests (frontend can be excluded unless explicitly required).
+- If an existing test suite already covers the affected area, suggest extending that suite instead of creating disconnected tests.
+- Prefer tests that validate one behavior at a time.
+- Suggest parameterized tests where suitable to reduce duplication and maintenance.
+
+---
+
+## Design Pattern Suggestions
+
+- When relevant, suggest practical use of established patterns (for example Facade, Strategy, Repository).
+- Only suggest patterns when they clearly improve readability, maintainability, or separation of concerns.
+- Do not force patterns into simple code that is already clear.
 
 ---
 
